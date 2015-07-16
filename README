@@ -1,0 +1,16 @@
+This is a simple python script, that uses DTED [1] files from the SRTM project
+[2], to find out the height (in meters) of a location on earth.
+
+For example to find the height of the german Zugspitze you need
+to download E0104500N471500_SRTM_1_DEM.dt2 and then type
+
+	python -i srtm-dted.py
+	height('47.2516N 10.5911E')
+
+Use Wikipedia to check the result :-)
+
+This script is only a quick hack and i can't give any warranties.
+
+
+ [1]	https://en.wikipedia.org/wiki/DTED
+ [2]	http://www.dlr.de/eoc/Portaldata/60/Resources/dokumente/7_sat_miss/SRTM-XSAR-DEM-DTED-1.1.pdf
